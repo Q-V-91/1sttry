@@ -1,15 +1,27 @@
-body{
-    backround-color: #3d3d3d
+:root {
+    --main-bg-color: #2e2e2e;
+
+    --main-purple: #9d6ad6; 
+
+    --main-white: #f0f0f0;
+
+    --secondary-white: #d1d1d1;
 }
 
-p{
-    color: #8948a0
+body {
+    background-color: var(--main-bg-color);
 }
 
-h1{
-    color: #f0f0f0
+p {
+    color : var(--main-purple);
 }
 
-h2{
-    color: #d1d1d1
+h1 {
+    color: var(--main-white);
+}
+
+h2,li,a,em {
+    color: var(--secondary-white);
+
+    font-style: normal;    
 }
