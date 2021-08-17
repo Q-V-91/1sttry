@@ -1,4 +1,3 @@
-# 1sttry
 My first adventure in HTML since 2011
 
 This a side project to get back into coding.
