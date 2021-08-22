@@ -34,3 +34,56 @@ h2,li,a,em {
     border-left-color: var(--secondary-white);
     padding-left: 15px;
 }
+
+.menu {
+    background-color: var(--main-purple);
+    height: 30px;
+
+}
+
+.sticky {
+    position: sticky;
+
+}
+
+.fixed {
+    position:fixed;
+
+}
+
+.inline {
+    display: inline;
+}
+
+.centered {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.purple {
+    color:var(--main-purple)
+}
+
+.secwhite {
+    color:var(--secondary-white)
+}
+
+td,th {
+    border: 1px solid var(--secondary-white);
+    padding: 7px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padtop {
+    padding-top: 5px;
+}
