@@ -74,6 +74,7 @@ td {
 td,th {
     border: 1px solid var(--secondary-white);
     padding: 7px;
+    vertical-align: middle;
 }
 
 table {
@@ -86,4 +87,9 @@ table {
 
 .padtop {
     padding-top: 5px;
+}
+
+.logopng {
+    width: 75px;
+    vertical-align: bottom;
 }
