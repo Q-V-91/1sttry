@@ -6,10 +6,12 @@
     --main-white: #f0f0f0;
 
     --secondary-white: #d1d1d1;
+
+    --secondary-grey: #2C2D36;
 }
 
 body {
-    background-color: var(--main-bg-color);
+    background: linear-gradient(var(--main-bg-color),var(--secondary-grey));
     font-family: "source code pro", Verdana, monospace;
 }
 
