@@ -45,12 +45,6 @@ nav ul li {
     position: relative;
 }
 
-nav ul ::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 nav a {
     display: block;
     text-decoration: none;
