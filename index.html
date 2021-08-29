@@ -4,21 +4,26 @@
     <head>
         <title>First try since 2011</title>
         <meta charset="utf-8">
+        <meta name="author" content="Lkdesu">
+        <meta name="keywords" content="art, gallery">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet"> 
     </head>
 
-    <body>
+    <header class="sticky">
+        <img class="logopng" src="rsrc/aglogo.png" alt="logo of art gallery">
         <nav>
+            
             <ul class="menu centered padtop">
                 <li><a class="menu" href="index.html">Home</a></li>
                 <li class="menu unroll"><a class="menu" href="yprofile.html">username &ensp;</a>
                     <ul class="insideroll">
-                        <li><a class="menu" href="yprofile.html">Your Profile</a></li>
-                        <li><a class="menu" href="upload.html">Upload</a></li>
-                        <li><a class="menu" href="accountset.html">Account settings</a></li>
+                        <li><a class="" href="yprofile.html">Your Profile</a></li>
+                        <li><a class="" href="upload.html">Upload</a></li>
+                        <li><a class="" href="accountset.html">Account settings</a></li>
                     </ul>
                 </li>
                 <li><a class="menu" href="faq.html">FAQ</a></li>
@@ -26,10 +31,11 @@
                 <li><a class="menu" href="aboutus.html">About us</a></li>
             </ul>
         </nav>
-        <div class="centered">
+    </header>
+    <body>
+        <main class="centered">
             <!--The full greetings-->
-            <h1><img class="logopng" src="rsrc/aglogo.png" alt="logo of art gallery">
-            Welcome to your own <strong>Art Gallery</strong></h1>
+            <h1>Welcome to your own <strong>Art Gallery</strong></h1>
 
             <!--Random ad like line -->
             <h2>Get your Art out there and make it seen</h2>
@@ -101,6 +107,12 @@
 
             </table>
             <p> a </p>
+
+            <details>
+                <summary>More Details</summary>
+                more details bla bla price and so on relative.
+            </details>
+
             <p> a </p>
             <p> a </p>
             <p> a </p>
@@ -119,16 +131,16 @@
             <p> a </p>
             <p> a </p>
  
-        </div>
+        </main>
 
         <hr>
-        <div class="centered">
+        <footer class="centered">
             <p>Now with a 100% less coding skills!</p>
             <p>Art Gallery Disclaimer:
             <br>Please <a class="link" href="tos.html">read our ToS </a> before uploading any Art</p>
             <p>If you have any questions: <a class="link" href="faq.html">check our F.A.Q. </a>first</p>
             <p> We are no yet RGPD compliant <a class="link" href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" target="_blank">Learn more about RGPD and your rights here</a></p>
             <!--<audio src="rsrc/mainmenu.mp3" controls preload="metadata" loop>Your browser doesn't seems to support this file</audio>-->
-        </div>
+            </footer>
     </body>
 </html>

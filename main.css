@@ -59,9 +59,9 @@ nav a:hover {
 
 .insideroll {
     display: none;
-    background-color: var(--main-purple);
+    background-color: var(--secondary-pink);
     position:absolute;
-    width: 100%;
+    width: 120%;
     z-index: 1000;
 }
 
@@ -135,7 +135,9 @@ a:hover {
 }
 
 .sticky {
+    margin: 0 auto;
     position: sticky;
+    top: 0px;
 
 }
 
@@ -188,5 +190,6 @@ table {
 
 .logopng {
     width: 75px;
-    vertical-align: bottom;
+    vertical-align: top;
+    float: left;
 }
