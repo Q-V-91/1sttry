@@ -2,7 +2,7 @@
 <!--DO a deviant art like/art station-->
 <html lang="en-GB">
     <head>
-        <title>Art Gallery-ToS</title>
+        <title>Art Gallery-About us</title>
         <meta charset="utf-8">
         <meta name="author" content="Lkdesu">
         <meta name="keywords" content="art, gallery">
@@ -14,7 +14,6 @@
     </head>
 
     <body>
-
         <header class="sticky fronthead">
             <img class="logopng" src="rsrc/aglogo.png" alt="logo of art gallery">
             <nav>
@@ -37,23 +36,34 @@
 
         <main class="centered">
                 
-            <!--The full greetings-->
-            <h1>Welcome to our Terms of Service</h1>
+    
+            <h1>About us</h1>
 
-            <!--Random ad like line -->
-            <h2>Please read carefully before uploading</h2>
+            
+            <h3>We are a team of 1, maintaining this website is all through your generous donations.</h3>
 
-            <!--Spewing out why you should sign up-->
-            <p class="underlined1">Here's a few rules you have to respect:</p>
+            
+            <p>Want to contact us? you can do so through this form</p>
 
-            <ul>
-                <li>Respect the laws of your own country</li>
-                <li>No 18+ content allowed so far (this might change in the future)</li>
-                <li>No violent content</li>
-                <li>Be respectful</li>
-                <li>No strong language</li>
-            </ul>
+            <form class="centered" action="" method="post">
+                <label><p>Why are you contacting us?</p></label>
 
+                <select name="whycontact" id=contact1>
+                    <option value="nothappy">You're not happy with something</option>
+                    <option value="bug">There's a bug</option>
+                    <option value="other">Anything else</option>
+                </select>
+                <br>
+
+                <textarea name="contactarea" form="contact1" rows="8" cols="70" maxlength="800" required> </textarea>  
+                <br>
+                <button type="submit" class="button" name="Send" form="contact1" formaction="" formtarget="_blank">Send</button>
+
+            </form>
+
+
+
+       
         </main>
 
         <footer class="centered">
