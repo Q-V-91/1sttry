@@ -58,7 +58,7 @@ body {
 
 .fronthead {
     background-color: var(--main-purple);
-    height: 48px;
+    height: 47px;
 }
 
 
@@ -218,7 +218,9 @@ a:hover {
     text-align: left;
 }
 
-
+.absol {
+    position: absolute;
+}
 
 /*======Padding============================================================*/
 
@@ -234,6 +236,16 @@ a:hover {
     margin-top: 15px;
 }
 
+.margauto {
+    margin: 0 auto;
+}
+
+
+/*======Clear=========================*/
+
+.clearb {
+    clear: both;
+}
 
 
 /*===========Table css===================================================*/

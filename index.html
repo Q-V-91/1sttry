@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet"> 
+        <script src="js/prices.js"></script>
     </head>
     <body>
         <header class="sticky fronthead">
@@ -103,11 +104,13 @@
                     <tr>
                         <td class="hide"></td>
                         <td>Free</td>
-                        <td>2€ per month</td>
+                        <td><span id="monthprice"></span>€ per month</td>
                     </tr>
                 </tfoot>
 
             </table>
+            <p>You can get <span id="percentoff">15</span>% off if you take a year plan</p>
+            <p>Total for a Year: <span id="yearprice"></span>€</p>
                      
  
         </main>
@@ -116,12 +119,20 @@
         <footer class="centered">
             <hr class="margtop">
             <img class="logopng padtop" src="rsrc/aglogol.png" alt="logo of art gallery lighter">
-            <p>Now with a 100% less coding skills!</p>
-            <p>Art Gallery Disclaimer:
-            <br>Please <a class="link" href="tos.html">read our ToS </a> before uploading any Art</p>
-            <p>If you have any questions: <a class="link" href="faq.html">check our F.A.Q. </a>first</p>
-            <p> We are no yet RGPD compliant <a class="link" href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" target="_blank">Learn more about RGPD and your rights here</a></p>
+            <div>
+                <p>Now with a 100% less coding skills!</p>
+                <p>Art Gallery Disclaimer:
+                <br>Please <a class="link" href="tos.html">read our ToS </a> before uploading any Art</p>
+                <p>If you have any questions: <a class="link" href="faq.html">check our F.A.Q. </a>first</p>
+                <p> We are no yet RGPD compliant <a class="link" href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" target="_blank">Learn more about RGPD and your rights here</a></p>
+
+            </div>
+            
             
         </footer>
+
+        
+
+
     </body>
 </html>
