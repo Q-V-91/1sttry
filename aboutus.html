@@ -55,8 +55,12 @@
                 </select>
                 <br>
 
-                <textarea name="contactarea" form="contact1" rows="8" cols="70" maxlength="800" required> </textarea>  
+                <textarea name="contactarea" id="contactarea" form="contact1" rows="8" cols="70" maxlength="800" required> </textarea>  
+                
                 <br>
+
+                <p><span id="charnumber"></span>/800</p>
+
                 <button type="submit" class="button" name="Send" form="contact1" formaction="" formtarget="_blank">Send</button>
 
             </form>
@@ -70,9 +74,9 @@
             <hr class="margtop">
             <img class="logopng padtop" src="rsrc/aglogol.png" alt="logo of art gallery lighter">
             
-                <p class="absol centered">Now with a 100% less coding skills!</p>
-                <p>Art Gallery Disclaimer:
-                <br>Please <a class="link" href="tos.html">read our ToS </a> before uploading any Art</p>
+                <p class="left150">Now with a 100% less coding skills!</p>
+                <p class="left150">Art Gallery Disclaimer:</p>
+                <p>Please <a class="link" href="tos.html">read our ToS </a> before uploading any Art</p>
                 <p>If you have any questions: <a class="link" href="faq.html">check our F.A.Q. </a>first</p>
                 <p> We are no yet RGPD compliant <a class="link" href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" target="_blank">Learn more about RGPD and your rights here</a></p>
 
@@ -80,6 +84,14 @@
             
             
         </footer>
+        <!-- Start JavaScript Here -->
+            <!--Script for numbers of charaters entered in input area-->            
+            <script> 
+            var typearea = "aha";
+            //var typearea = document.getElementById("contactarea") ;
+            var typeinlength = typearea.length ;
+            document.getElementById("charnumber").innerHTML = typeinlength ;
+            </script>
 
     </body>
 </html>
