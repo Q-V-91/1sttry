@@ -222,10 +222,20 @@ a:hover {
     position: absolute;
 }
 
+.right {
+    text-align: right;
+}
+
+
 /*======Padding============================================================*/
 
 .padtop {
     padding-top: 5px;
+}
+
+.left150 {
+    
+    padding-right: 120px;
 }
 
 
