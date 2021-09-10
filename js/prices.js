@@ -1,18 +1,26 @@
 /* Here we will define all prices and discounts for the VIP plan*/
 
-//------------Variables-----------
+document.onreadystatechange = function () {
+    if (document.readyState === 'complete') {
 
-var percentoff = 10; //percentage of for the yearly plan
+//------------Variables----------------------------------------
 
-var monthprice = 2; // usual month price, will change the table if modified here
+var xpercentoff = 10; //percentage of for the yearly plan
 
-var yearprice = (monthprice*12)-((monthprice*12)*percentoff)/100; //Year price with discount calculated here
+var xmonthprice = 2; // usual month price, will change the table if modified here
 
-//-------------Scripts-----------------------
+var xyearprice = (xmonthprice*12)-((xmonthprice*12)*xpercentoff)/100; //Year price with discount calculated here
 
-document.getElementById("percentoff").innerHTML = percentoff;
+xyearprice.toFixed(2);
 
-document.getElementById("monthprice").innerHTML = monthprice;
+//-------------Scripts--------------------------------------------------------------
 
-document.getElementById("yearprice").innerHTML = yearprice;
+document.getElementById("monthprice").innerHTML = xmonthprice;
 
+document.getElementById("percentoff").innerHTML = xpercentoff;
+
+document.getElementById("yearprice").innerHTML = xyearprice;
+
+
+    }
+  }
