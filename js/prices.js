@@ -11,6 +11,8 @@ var xmonthprice = 2; // usual month price, will change the table if modified her
 
 var xyearprice = (xmonthprice*12)-((xmonthprice*12)*xpercentoff)/100; //Year price with discount calculated here
 
+xyearprice.toFixed(2);
+
 //-------------Scripts--------------------------------------------------------------
 
 document.getElementById("monthprice").innerHTML = xmonthprice;
@@ -19,6 +21,6 @@ document.getElementById("percentoff").innerHTML = xpercentoff;
 
 document.getElementById("yearprice").innerHTML = xyearprice;
 
-console.log(document.getElementById("percentoff"));
+
     }
   }
