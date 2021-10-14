@@ -14,13 +14,18 @@
         <script src="js/menu.js"></script>
         <script src="js/prices.js"></script>
         
+        
     </head>
     <body>
         <header class="sticky fronthead" id="topmenu">
+           
             <!--A menu from menu.js will pop in here-->
 
          </header>
-    
+         <script>
+            
+
+        </script>
         <main class="centered">
             <!--The full greetings-->
             <h1>Welcome to your own <strong>Art Gallery</strong></h1>
@@ -97,6 +102,14 @@
             </table>
             <p>You can get <span id="percentoff">no</span>% off if you take a year plan</p>
             <p>Total for a Year: <span id="yearprice"></span>€</p>
+
+            <script>
+                document.getElementById("monthprice").innerHTML = xmonthprice;
+                document.getElementById("percentoff").innerHTML = xpercentoff;
+                document.getElementById("yearprice").innerHTML = xyearprice;
+
+               
+            </script>
                      
  
         </main>
@@ -112,7 +125,7 @@
                 <p>If you have any questions: <a class="link" href="faq.html">check our F.A.Q. </a>first</p>
                 <p> We are no yet RGPD compliant <a class="link" href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" target="_blank">Learn more about RGPD and your rights here</a></p>
 
-            
+                
             
             
         </footer>

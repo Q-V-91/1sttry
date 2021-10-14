@@ -5,7 +5,7 @@ document.onreadystatechange = function () {
 
 /*-------------------------------Menu goes here-------------------*/
 
-const headimg = ('<img class="logopng" src="rsrc/aglogo.png" alt="logo of art gallery"></img>'+
+const headimg = '<img class="logopng" src="rsrc/aglogo.png" alt="logo of art gallery"></img>'+
         '<nav>'+
                 '<ul class="menu centered padtop">'+
                     '<li><a class="menu" href="index.html">Home</a></li>'+
@@ -20,10 +20,9 @@ const headimg = ('<img class="logopng" src="rsrc/aglogo.png" alt="logo of art ga
                     '<li><a class="menu" href="tos.html">ToS</a></li>'+
                     '<li><a class="menu" href="aboutus.html">About us</a></li>'+
                 '</ul>'+
-            '</nav>');
+            '</nav>';
 
 
-document.getElementById("topmenu").innerHTML = headimg ; 
-
+            document.getElementById("topmenu").innerHTML = headimg ; 
     }
 }

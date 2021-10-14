@@ -1,7 +1,8 @@
 /* Here we will define all prices and discounts for the VIP plan*/
 
-document.onreadystatechange = function () {
-    if (document.readyState === 'complete') {
+//document.onreadystatechange = function(){
+  //  if (document.readyState === 'complete') 
+  {
 
 //------------Variables----------------------------------------
 
@@ -15,12 +16,9 @@ xyearprice.toFixed(2);
 
 //-------------Scripts--------------------------------------------------------------
 
-document.getElementById("monthprice").innerHTML = xmonthprice;
 
-document.getElementById("percentoff").innerHTML = xpercentoff;
 
-document.getElementById("yearprice").innerHTML = xyearprice;
 
 
     }
-  }
+  //}
